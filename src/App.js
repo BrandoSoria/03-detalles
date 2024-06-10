@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import Calculadora from './components/Calculadora';
+import State from './components/State';
 
 
 const App = () => {
   return (
     <div>
-      <h1>Calculadora</h1>
-      <hr />
-      <Calculadora />
+      <State />
     </div>
   );
 }
